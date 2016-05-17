@@ -2,10 +2,10 @@
   
 ## 0-1 **VirtualBox** インストール  
 
- *Ubuntu Software*でVirtualBox探してDownlode。
+ *Ubuntu Software*で*VirtualBox*探してダウンロード。
 
- Downlodeが完了したらターミナルでコマンド入力してInstall。
+ ダウンロードが完了したらターミナルでコマンド入力してインストール。
 
- ``` $ sudo apt-get install　virtualbox ```
+  ``` $ sudo apt-get install　virtualbox ```
 
  起動を確認できたらインストール完了!!
