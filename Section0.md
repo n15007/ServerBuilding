@@ -2,7 +2,7 @@
   
 ## 0-1 **VirtualBox** インストール  
 
- [VirtualBox公式サイト/ダウンロードページ](https://www.virtualbox.org/wiki/Linux_Downloads)で*Ubuntu 16.04 ("Xenial")*の*AMD64*を選ぶ。
+ [VirtualBox公式サイト/ダウンロードページ](https://www.virtualbox.org/wiki/Linux_Downloads)で__*Ubuntu 16.04 ("Xenial")*__の__*AMD64*__を選ぶ。
 
  ダウンロードが完了したらターミナルでダウンロードしたフォルダに移動&コマンド入力してインストール。
 
@@ -14,7 +14,7 @@
   
 ## 0-2 **Vagrant** インストール
 
- [Vagrant公式サイト/ダウンロードページ](https://www.vagrantup.com/downloads.html) にて*DEBIAN*-*64bit*を選ぶ。
+ [Vagrant公式サイト/ダウンロードページ](https://www.vagrantup.com/downloads.html) にて__*DEBIAN*__-__*64bit*__を選ぶ。
 
  ダウンロードが完了したらターミナルでダウンロードしたフォルダに移動&コマンド入力してインストール。
 
