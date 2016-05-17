@@ -2,7 +2,7 @@
   
 ## 0-1 **VirtualBox** インストール  
 
- [VirtualBox公式サイト/ダウンロードページ](https://www.virtualbox.org/wiki/Linux_Downloads)で*VirtualBox 5.0.20 for Linux hosts*を選択して*Ubuntu 16.04 ("Xenial")*の*AMD64*を選ぶ。
+ [VirtualBox公式サイト/ダウンロードページ](https://www.virtualbox.org/wiki/Linux_Downloads)で*Ubuntu 16.04 ("Xenial")*の*AMD64*を選ぶ。
 
  ダウンロードが完了したらターミナルでダウンロードしたフォルダに移動&コマンド入力してインストール。
 
