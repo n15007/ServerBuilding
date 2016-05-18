@@ -64,8 +64,8 @@
 
   デーモンを起動する。
 
-  ``` systemctl start httpd ```
-  ``` systemctl start mysql ```
+  ``` systemctl start httpd ```  
+  ``` systemctl start mysql ```  
 
   データベース作成する。
 
