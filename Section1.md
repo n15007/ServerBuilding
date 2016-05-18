@@ -71,9 +71,11 @@
 
   ``` mysql -uroot -p ```
 
-  mysql>``` create database データベース名；```
-  mysql>``` grant all on データベース名.* to 'ユーザー名'@'localhost' identified by 'パスワード'; ```
-  mysql>``` exit ```
+  mysql>``` create database データベース名；```  
+
+  mysql>``` grant all on データベース名.* to 'ユーザー名'@'localhost' identified by 'パスワード'; ```  
+
+  mysql>``` exit ```  
 
   WordPressをインストール。
   ``` cd /var/www/html/ ```
