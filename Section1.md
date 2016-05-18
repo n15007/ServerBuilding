@@ -41,7 +41,8 @@
 
   ``` /etc/wgetrc ```に
 
-  ``` http_proxy=http://172.16.40.1:8888  https_proxy==http://172.16.40.1:8888 ```
+  ``` http_proxy=http://172.16.40.1:8888 
+  https_proxy==http://172.16.40.1:8888 ```
 
   プロキシ設定したらアップデートをする。
 
@@ -51,4 +52,29 @@
 
   Apache HTTP Server,MySQL,PHPをインストール。
 
-  ``` yum -y install httpd ```
+  ``` yum -y install httpd ```でApacheインストール。
+
+  ``` yum -y install mysql mysql-devel mysql-server mysql-utilities ```でMySQLインストール。
+
+  ``` yum -y install php php-mysql php-mbstring ```
+
+  デーモンを起動する。
+
+  ``` systemctl start httpd ```
+  ``` systemctl start mysql ```
+
+  データベース作成する。
+
+  ``` mysql -uroot -p ```
+
+  mysql>``` create database データベース名；```
+  mysql>``` grant all on データベース名.* to 'ユーザー名'@'localhost' identified by 'パスワード'; ```
+  mysql>``` exit ```
+
+  WordPressをインストール。
+  ``` cd /var/www/html/ ```
+  ``` wget https://ja.wordpress.org/latest-ja.tar.gz ```
+  ``` tar -xzvf latest-ja.tar.gz ```
+  ``` mv wordpress/* ./ ```
+
+  
