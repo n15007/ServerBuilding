@@ -78,9 +78,10 @@
   mysql>``` exit ```  
 
   WordPressをインストール。
-  ``` cd /var/www/html/ ```
-  ``` wget https://ja.wordpress.org/latest-ja.tar.gz ```
-  ``` tar -xzvf latest-ja.tar.gz ```
-  ``` mv wordpress/* ./ ```
+  ``` cd /var/www/html/ ```  
+  ``` wget https://ja.wordpress.org/latest-ja.tar.gz ```  
+  ``` tar -xzvf latest-ja.tar.gz ```  
+  ``` mv wordpress/* ./ ```  
+
 
   
