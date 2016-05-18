@@ -51,7 +51,7 @@
   ``` http_proxy=http://172.16.40.1:8888 ``` 
   ``` https_proxy=http://172.16.40.1:8888 ``` 
 
-  プロキシ設定したらアップデートをする。
+### プロキシ設定したらアップデートをする。
 
   ``` yum update ```
 
@@ -63,7 +63,7 @@
 
   ``` yum -y install mysql mysql-devel mysql-server mysql-utilities ```でMySQLインストール。
 
-  ``` yum -y install php php-mysql php-mbstring ```
+  ``` yum -y install php php-mysql php-mbstring ``` でPHPインストール。
 
   デーモンを起動する。
 
@@ -81,10 +81,10 @@
   mysql>``` exit ```  
 
   WordPressをインストール。  
-  ``` cd /var/www/html/ ```  
-  ``` wget https://ja.wordpress.org/latest-ja.tar.gz ```  
-  ``` tar -xzvf latest-ja.tar.gz ```  
-  ``` mv wordpress/* ./ ```  
+  ``` cd /var/www/html/   
+  wget https://ja.wordpress.org/latest-ja.tar.gz   
+  tar -xzvf latest-ja.tar.gz   
+  mv wordpress/* ./ ```   
 
 
   
