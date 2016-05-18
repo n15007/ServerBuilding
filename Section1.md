@@ -21,7 +21,10 @@
 ### ネットワークアダプターへのIPアドレスの設定
 
   ``` /etc/sysconfig/network-script/ifcfg-enp0s8 ``` を編集。
-  ``` ONBOOT=yes ``` に変更。
+  ``` ONBOOT=yes ``` に変更。 
+  
+  ネットワークをリスタートする。 
+  ``` service network restart ```  
 
 ### SSH接続確認
 
