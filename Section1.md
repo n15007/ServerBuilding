@@ -24,7 +24,7 @@
   ``` ONBOOT=yes ``` に変更。 
   
   ネットワークをリスタートする。 
-  ``` service network restart ```  
+  $ ``` service network restart ```  
 
 ### SSH接続確認
 
@@ -44,7 +44,7 @@
 
 
 
-  ``` yum install wget ``` で*wget*をインストール。
+  $ ``` yum install wget ``` で*wget*をインストール。
 
   ``` /etc/wgetrc ```に
 
@@ -53,26 +53,26 @@
 
 ### プロキシ設定したらアップデートをする。
 
-  ``` yum update ```
+  $ ``` yum update ```
 
 ## 1-2 WordPressを動かす
 
   Apache HTTP Server,MySQL,PHPをインストール。
 
-  ``` yum -y install httpd ```でApacheインストール。
+  $ ``` yum -y install httpd ```でApacheインストール。
 
-  ``` yum -y install mysql mysql-devel mysql-server mysql-utilities ```でMySQLインストール。
+  $ ``` yum -y install mysql mysql-devel mysql-server mysql-utilities ```でMySQLインストール。
 
-  ``` yum -y install php php-mysql php-mbstring ``` でPHPインストール。
+  $ ``` yum -y install php php-mysql php-mbstring ``` でPHPインストール。
 
   デーモンを起動する。
 
-  ``` systemctl start httpd ```  
-  ``` systemctl start mysql ```  
+  $ ``` systemctl start httpd ```  
+  $ ``` systemctl start mysql ```  
 
   データベース作成する。
 
-  ``` mysql -uroot -p ```
+  $ ``` mysql -uroot -p ```
 
   mysql>``` create database データベース名；```  
 
@@ -81,11 +81,11 @@
   mysql>``` exit ```  
 
   WordPressをインストール。
-  ~~~
-  cd /var/www/html/  
-  wget https://ja.wordpress.org/latest-ja.tar.gz  
-  tar -xzvf latest-ja.tar.gz  
-  mv wordpress/* ./  
-  ~~~
+  
+  $ ``` cd /var/www/html/ ```   
+  $ ``` wget https://ja.wordpress.org/latest-ja.tar.gz ```    
+  $ ``` tar -xzvf latest-ja.tar.gz ```  
+  $ ``` mv wordpress/* ./ ```  
+  
 
   
