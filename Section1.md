@@ -4,7 +4,7 @@
 
 ### VirtualBoxへインストール
 
-  先生からUSBを借りて*CentOS7(CentOS-7-x86_64-Minimal-1511.iso)*をいただく。
+  先生からUSBを借りて*__CentOS7(CentOS-7-x86_64-Minimal-1511.iso)__*をいただく。
 
   VirtualBoxの方で新規作成、名前｢CentOS｣。名前を打つとタイプとバージョンは自動で選択される(タイプはLinux。バージョンは、Red Hat (64-bit))。
 
