@@ -103,7 +103,7 @@
   検索フォームでWordpressって検索すると色々なAMIでてくるのよ、  
   そのなかからAMIMOTOっちのAMIを探しだすのよ!!!!!!  
   
-  →*** WordPress powered by AMIMOTO (HVM)***ってやつ  
+  ***WordPress powered by AMIMOTO (HVM)*** ってやつ  
   
   あとはさっきやった通りよ、(t2.micro セキュリティグループ)  
   
