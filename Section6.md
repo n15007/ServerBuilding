@@ -68,4 +68,25 @@
   ` $ scp -r ファイル名 学籍番号@172.16.40.2: ` で  
   grusのところにファイルをコピーしたらgrusに接続しよう  
   
+  Section3で作ったansible使うなら設定ファイルを変更しなければいけない。  
+  MariadbでやってたらMySQLにしなきゃ!!  
   
+  準備ができたらSSHしよ。  
+  
+  
+  接続できたらansible起動するよ。  
+  ` ansible パブリックIP -i hosts -m ping --private-key キーペア -u ec2-user -k `   
+  ` ansible-playbook playbook.yml -i hosts -u ec2-user -k --private-key n15007.pem -vv `  
+  
+  無事エラー吐かなければブラウザでパブリックID打ってWordPressできてると思う。  
+  
+### AMI(Amazon Machine Image)を作る  
+  
+  要はVagrantなんたらBox的な、らしい。たぶん。。。  
+  
+  インスタンス右クリックでイメージ→イメージ作成でおｋよ。  
+  ナビゲーションバーからAMIへ、イメージが作られていることを肉眼で確認。  
+  自分が作ったAMI選択して作成押したら今までやった作業無しでインスタンスできるね!  
+  セキュリティグループ選ぶの忘れずに,,,,,,,,,  
+  
+
