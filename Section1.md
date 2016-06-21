@@ -21,10 +21,10 @@
 ### ネットワークアダプターへのIPアドレスの設定
 
   ``` /etc/sysconfig/network-script/ifcfg-enp0s8 ``` を編集。
-  ``` ONBOOT=yes ``` に変更。 
-  
-  ネットワークをリスタートする。 
-  $ ``` service network restart ```  
+  ``` ONBOOT=yes ``` に変更。
+
+  ネットワークをリスタートする。  
+  $ ``` service network restart ```
 
 ### SSH接続確認
 
@@ -48,8 +48,8 @@
 
   ``` /etc/wgetrc ```に
 
-  ``` http_proxy=http://172.16.40.1:8888 ```   
-  ``` https_proxy=http://172.16.40.1:8888 ``` 
+  ``` http_proxy=http://172.16.40.1:8888 ```  
+  ``` https_proxy=http://172.16.40.1:8888 ```
 
 ### プロキシ設定したらアップデートをする。
 
@@ -68,24 +68,23 @@
   デーモンを起動する。
 
   $ ``` systemctl start httpd ```  
-  $ ``` systemctl start mysql ```  
+  $ ``` systemctl start mysql ```
 
   データベース作成する。
 
   $ ``` mysql -uroot -p ```
 
-  mysql>``` create database データベース名；```  
+  mysql>``` create database データベース名；```
 
-  mysql>``` grant all on データベース名.* to 'ユーザー名'@'localhost' identified by 'パスワード'; ```  
+  mysql>``` grant all on データベース名.* to 'ユーザー名'@'localhost' identified by 'パスワード'; ```
 
-  mysql>``` exit ```  
+  mysql>``` exit ```
 
   WordPressをインストール。
-  
-  $ ``` cd /var/www/html/ ```   
-  $ ``` wget https://ja.wordpress.org/latest-ja.tar.gz ```    
-  $ ``` tar -xzvf latest-ja.tar.gz ```  
-  $ ``` mv wordpress/* ./ ```  
-  
 
-  
+  $ ``` cd /var/www/html/ ```  
+  $ ``` wget https://ja.wordpress.org/latest-ja.tar.gz ```  
+  $ ``` tar -xzvf latest-ja.tar.gz ```  
+  $ ``` mv wordpress/* ./ ```
+
+
