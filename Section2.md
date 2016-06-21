@@ -180,6 +180,13 @@ $ make
 $ make install
 ```
   
+  php.ini作成のためのコマンド  
+```
+$ find / -name "php.ini-development" -ls
+$ cp php.ini-development /usr/local/lib/php.ini
+$ /usr/local/apache2/bin/apachectl restart
+```
+  
   `$ vi /usr/local/apache2/conf/httpd.conf` の  
   **#ServerName www.example.com:80**の下に、  
   **ServerName localhost:80**を追加しないといけないみたいよ。  
