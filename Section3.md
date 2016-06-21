@@ -24,4 +24,21 @@
   pingで確確認認確認認。。。  
   ` $ ansible 自分の鯖IPアドレス -i hosts -m ping --private-key ~/.vagrant.d/insecure_private_key -u vagrant -k `  
 
+  playbook.ymlに設定を書いてくよ。ファイルうｐしとくね(はーと)  
+  
+  playbook.ymlと同じとこにnginx,php-fpm,wordpressディレクトリをつくってこーっせ!!  
+  それぞれのディレクトリにWordpressの設定ファイルを作って記述してくんだお。  
+  ファイルうｐしとくね(はーと)  
+
+  ではさっそくplaybook実行してこーよ!!  
+  `$ ansible-playbook playbook.yml -i hosts  --private-key ~/.vagrant.d/insecure_private_key -u vagrant -k`  
+
+  できたんじゃない??そうじゃない??  
+  できなかったらとりまエラー見たほうがいいっぽいよ。。。。  
+  さっきのコマンドに**-vv** 追加して実行したら出力してくれるセョ  
+
+### 3-1-2 VagrantfileからAnsibleを呼び出す
+  
+  題名通り、要はそうゆうことよ!!ファイルうｐしと(ry  
+
   
