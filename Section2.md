@@ -225,7 +225,7 @@ Ubuntuにabコマンドをインストールする
 ` $ sudo apt-get install apache2-utils `
 
 -n 100(リクエスト回数100)と -c 100(発行するリクエスト数100)をやってこ??  
-`$ ab -n 100 -c 100 http://192.168.56.128/wp-admin/`
+`$ ab -n 100 -c 100 http://自分の鯖IPアドレス/wp-admin/`
 
 ### PageSpeedを使う
 Google Chromeに[PageSpeed](https://chrome.google.com/webstore/detail/pagespeed-insights-with-p/lanlbpjbalfkflkhegagflkgcfklnbnh?utm_source=chrome-ntp-icon)をインストール
