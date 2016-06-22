@@ -196,7 +196,7 @@ $ wget https://ja.wordpress.org/wordpress-4.1-ja.tar.gz
 $ tar xvzf wordpress-4.1-ja.tar.gz
 $ sudo mv wordpress/* /usr/share/nginx/html
 ```
-wp-configの設定は前やりましたーー、わかるね。。。
+wp-configの設定は前やりましたーー、やりかたわかるね?? はいやってこー。。。
 
 ### 2-3-5httpd.confの設定
 
