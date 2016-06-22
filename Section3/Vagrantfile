@@ -18,7 +18,7 @@ Vagrant.configure(2) do |config|
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
   config.vm.box = "CentOS7"
-  config.vm.network "private_network", ip:"192.168.56.129"
+  config.vm.network "private_network", ip:"自分の鯖IPアドレス"
 
   config.vm.provision "ansible" do |ansible|
     ansible.playbook = "./playbook.yml"

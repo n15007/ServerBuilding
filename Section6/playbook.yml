@@ -1,5 +1,5 @@
 ---
-- hosts: 172.31.9.53 
+- hosts: 自分のIPアドレス 
   sudo: yes
   vars:
       mysql_root_password: password
