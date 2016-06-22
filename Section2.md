@@ -15,9 +15,7 @@ Vagrantfileを編集。
 
 viでVagrantfileを開く、
 
-` $ config.vm.box = "base" `
-
-を、
+` $ config.vm.box = "base" `を、
 
 ` $ config.vm.box = "CentOS7" `
 
@@ -39,7 +37,7 @@ Vagrantfileの
 
 と書き換えて **#** を消してコメントじゃなくする。
 
-### Vagrantfile反映  パスワード
+### Vagrantfile反映
 設定を変更したので
 
 ` $ vagrant reload `
@@ -207,7 +205,7 @@ Directory "/usr/local/apache2/htdocs/wordpress"これに変えてこうね!!
 <IfModule dir_module>のDirectoryIndexに**index.php**も追加。  
 最後の行に、
 ```
-<FilesMatch "\.ph(p[2-6]?|tml)$">
+<FilesMatch "\.php">
   SetHandler application/x-httpd-php
 </FilesMatch>
 ```
