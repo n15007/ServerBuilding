@@ -200,11 +200,11 @@ wp-configの設定は前やりましたーー、やりかたわかるね?? は�
 
 ### 2-3-5httpd.confの設定
 
-DocumentRootをWordpressがある位置に変更しなきゃいけないよん。
+DocumentRootをWordpressがある位置に変更しなきゃいけないよん。  
 `$ vi /usr/local/apache2/conf/httpd.conf `のなかやで。
 
 Directory "/usr/local/apache2/htdocs/wordpress"これに変えてこうね!!
-<IfModule dir_module>のDirectoryIndexに**index.php**も追加。
+<IfModule dir_module>のDirectoryIndexに**index.php**も追加。  
 最後の行に、
 ```
 <FilesMatch "\.ph(p[2-6]?|tml)$">
